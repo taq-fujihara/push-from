@@ -1,0 +1,22 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Deploy
+        uses: cpina/github-action-push-to-another-repository@master
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'output'
+          destination-github-username: 'taq-fujihara'
+          destination-repository-name: 'push-to'
+          user-email: taq.fujihara@gmail.com
