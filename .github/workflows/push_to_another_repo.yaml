@@ -19,4 +19,5 @@ jobs:
           source-directory: 'output'
           destination-github-username: 'taq-fujihara'
           destination-repository-name: 'push-to'
-          user-email: taq.fujihara@gmail.com
+          user-email: deploy@example.com
+          commit-message: deploy
