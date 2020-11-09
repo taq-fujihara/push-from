@@ -9,3 +9,4 @@
 
 これで、このリポジトリにPushがあると[push-to](https://github.com/taq-fujihara/push-to)リポジトリに`output`フォルダの中身がPushされます。
 
+このリポジトリはプライベートでも構いません。
