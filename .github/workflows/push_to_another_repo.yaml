@@ -19,4 +19,4 @@ jobs:
           source-directory: 'output'
           destination-github-username: 'taq-fujihara'
           destination-repository-name: 'push-to'
-          user-email: test@example.com
+          user-email: taq.fujihara@gmail.com
